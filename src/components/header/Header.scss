@@ -1,0 +1,48 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+
+    width: 1024px;
+    padding: 32px 0 8px 0;
+    background: #282C33;
+
+    a{
+        text-decoration: none;
+    }
+    
+    p {
+        color: white;
+        margin: 0;
+        font-weight: 700;
+        cursor: pointer;
+    }
+
+    ul {
+        display: flex;
+        gap: 32px;
+        margin: 0;
+        padding: 0;
+
+        li {
+            cursor: pointer;
+            list-style: none;
+            color: #ABB2BF;
+            font-weight: 400;
+            span{
+                color: #C778DD;
+            }
+        }
+
+        li:hover{
+            color: white;
+            font-weight: 500;
+        }
+    }
+
+}
+
+.activeHeader{
+    color: white;
+    font-weight: 500;
+}
