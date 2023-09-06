@@ -3,14 +3,17 @@
     justify-content: space-between;
     align-items: flex-end;
 
+
     width: 1024px;
+    flex-wrap: wrap;
     padding: 32px 0 8px 0;
     background: #282C33;
 
-    a{
+
+    a {
         text-decoration: none;
     }
-    
+
     p {
         color: white;
         margin: 0;
@@ -29,12 +32,13 @@
             list-style: none;
             color: #ABB2BF;
             font-weight: 400;
-            span{
+
+            span {
                 color: #C778DD;
             }
         }
 
-        li:hover{
+        li:hover {
             color: white;
             font-weight: 500;
         }
@@ -42,7 +46,7 @@
 
 }
 
-.activeHeader{
+.activeHeader {
     color: white;
     font-weight: 500;
 }

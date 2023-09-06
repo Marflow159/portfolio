@@ -1,3 +1,24 @@
 body {
-    background: #1e1e1e;
+    background: #282C33;
+    font-family: Fira Code;
+    margin: 0 auto;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: white;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+h1,h2,h3,ul,p{
+    margin: 0;
+    padding: 0;
+}
+
+button{
+    cursor: pointer;
 }
