@@ -2,17 +2,19 @@ import First from "../first/First"
 import MainProjects from "../mainProjects/MainProjects";
 import MainSkills from "../mainSkills/MainSkills";
 import MainAboutMe from "../mainAboutMe/MainAboutMe";
+import MainContacts from "../mainContacts/MainContacts";
 
 import './mainPage.scss'
 
 const MainPage = () => {
-    return(
+    return (
         <div className="mainPage">
 
-            <First/>
-            <MainProjects/>
-            <MainSkills/>
-            <MainAboutMe/>
+            <First />
+            <MainProjects />
+            <MainSkills />
+            <MainAboutMe />
+            <MainContacts />
 
             <img className="frame1" src="img/items/Frame.png" alt="Frame1" />
             <img className="rec2" src="img/items/Rectangle1.png" alt="Rectangle1" />
