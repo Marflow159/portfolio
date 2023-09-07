@@ -1,0 +1,19 @@
+.mainPage{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.rec2{
+    position: absolute;
+    right: -200px;
+    top: 800px;
+}
+
+.frame1{
+    position: absolute;
+    left: -200px;
+    top: 650px;
+}
+
