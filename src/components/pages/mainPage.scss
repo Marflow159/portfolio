@@ -1,19 +1,30 @@
-.mainPage{
+.mainPage {
     position: relative;
     display: flex;
     flex-direction: column;
     gap: 60px;
 }
 
-.rec2{
+.rec2 {
     position: absolute;
-    right: -200px;
+    left: calc(50% + 680px);
     top: 800px;
 }
 
-.frame1{
+.rec3 {
     position: absolute;
-    left: -200px;
+    right: calc(50% + 680px);
+    top: 1600px;
+}
+
+.frame1 {
+    position: absolute;
+    right: calc(50% + 680px);
     top: 650px;
 }
 
+.frame2 {
+    position: absolute;
+    left: calc(50% + 680px);
+    top: 1800px;
+}
