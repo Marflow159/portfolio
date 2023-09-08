@@ -9,14 +9,13 @@
             font-weight: 500;
 
             span {
-                color: #C778DD;
+                color: #8338ec;
             }
         }
 
         &__line {
-            width: 120px;
             height: 1px;
-            background: #C778DD;
+            background: #8338ec;
         }
     }
 
@@ -33,6 +32,11 @@
             border: 1px solid #ABB2BF;
             padding: 10px;
 
+
+            p {
+                color: white;
+            }
+
             a {
                 text-decoration: none;
                 display: flex;
@@ -41,14 +45,15 @@
                 gap: 5px;
             }
 
-            a:hover {
-                color: white;
-            }
-
             &__text {
                 display: flex;
                 align-items: center;
                 gap: 5px;
+
+                a:hover {
+                    color: white;
+                }
+
             }
         }
     }

@@ -15,9 +15,11 @@ const MainAboutMe = () => {
                         I am always eager to learn about the latest technologies and frameworks. </p>
                     <button> Read more ~~</button>
                 </div>
-                <img className='me2' src="img/me/me2.png" alt="me2" />
-                <img className='dots3' src="img/items/Dots3.png" alt="dots3" />
-                <img className='dots4' src="img/items/Dots4.png" alt="dots4" />
+                <div className='me2'>
+                    <img src="img/me/me2.png" alt="me2" />
+                </div>
+                {/* <img className='dots3' src="img/items/Dots3.png" alt="dots3" />
+                <img className='dots4' src="img/items/Dots4.png" alt="dots4" /> */}
             </div>
         </div>
     )

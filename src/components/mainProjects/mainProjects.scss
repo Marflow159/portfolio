@@ -1,5 +1,5 @@
 .mainProjects {
-    width: 1000px;
+    // width: 1000px;
     display: flex;
     flex-direction: column;
     gap: 50px;
@@ -15,8 +15,8 @@
             gap: 16px;
         }
 
-        span {
-            color: #C778DD;
+        span{
+            color: #8338ec;
         }
 
         h1 {
@@ -24,9 +24,8 @@
         }
 
         &__line {
-            width: 510px;
             height: 1px;
-            background: #C778DD;
+            background: #8338ec;
         }
 
         a {
@@ -34,10 +33,15 @@
             color: white;
         }
     }
+
+    &__bottom{
+        display: flex;
+        gap: 30px;
+    }
 }
 
 .project {
-    width: 330px;
+    width: 300px;
     border: 1px solid #ABB2BF;
 
     display: flex;
@@ -67,7 +71,7 @@
     button {
         width: 80px;
         padding: 8px;
-        border: 1px solid #C778DD;
+        border: 1px solid #8338ec;
         background: none;
         color: white;
     }

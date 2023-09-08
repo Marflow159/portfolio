@@ -4,7 +4,7 @@ const MainContacts = () => {
     return (
         <div className="mainContacts">
             <div className="mainContacts__top">
-                <h1><span>#</span>projects</h1>
+                <h1><span>#</span>contacts</h1>
                 <div className="mainContacts__top__line"></div>
             </div>
 
@@ -14,19 +14,20 @@ const MainContacts = () => {
                     <p>Message me here</p>
                     <div className='mainContacts__bottom__links__text'>
                         <a href="https://t.me/vladb159"><img src="img/links/telegram.png" alt="" />
-                            <p>vladb159</p></a>
+                            vladb159</a>
                     </div>
                     <div className='mainContacts__bottom__links__text'>
                         <a href="https://www.instagram.com/_vladb._/"><img src="img/links/instagram.png" alt="" />
-                            <p>_vladb._</p></a>
+                            _vladb._</a>
                     </div>
                     <div className='mainContacts__bottom__links__text'>
                         <a href="mailto:vladbohachenko.vb@gmail.com"><img src="img/links/Email.png" alt="" />
-                            <p>vladbohachenko.vb@gmail.com</p></a>
+                            vladbohachenko.vb@gmail.com</a>
                     </div>
                 </div>
             </div>
         </div>
+        
     )
 }
 

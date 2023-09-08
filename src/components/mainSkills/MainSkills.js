@@ -1,4 +1,6 @@
 import './mainSkills.scss'
+import '../styles/media.scss'
+
 
 const MainSkills = () => {
     let skills = [
@@ -27,7 +29,10 @@ const MainSkills = () => {
                 <div className="mainSkills__top__line"></div>
             </div>
             <div className='mainSkills__bottom'>
-                <img src="img/items/Group.png" alt="Group"/>
+                <div className='mainSkills__bottom__photo'>
+                    <img src="img/items/Group.png" alt="Group"/>
+                </div>
+                
                 <div className='mainSkills__bottom__skills'>
                     {elements}
                 </div>

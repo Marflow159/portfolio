@@ -4,10 +4,11 @@ import './header.scss'
 
 const Header = () => {
     return (
-        <div className='header'>
+        <header className='header'>
             <NavLink to='/'>
                 <p>Marflow</p>
             </NavLink>
+
             <ul>
                 <NavLink to='/' className={({ isActive }) => (isActive ? 'activeBox' : 'noActiveBox')}>
                     <li><span>#</span>home</li>
@@ -16,7 +17,10 @@ const Header = () => {
                 <li><span>#</span>about-me</li>
                 <li><span>#</span>contacts</li>
             </ul>
-        </div>
+
+
+
+        </header>
     )
 }
 

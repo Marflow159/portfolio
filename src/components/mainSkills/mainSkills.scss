@@ -12,14 +12,13 @@
             font-weight: 500;
 
             span {
-                color: #C778DD;
+                color: #8338ec;
             }
         }
 
         &__line {
-            width: 230px;
             height: 1px;
-            background: #C778DD;
+            background: #8338ec;
         }
     }
 
@@ -27,13 +26,21 @@
         display: flex;
         align-items: center;
         justify-content: space-around;
+
         &__skills {
             display: flex;
-            width: 520px;
+            width: 60%;
             flex-wrap: wrap;
-            justify-content: flex-end;
+            // justify-content: flex-end;
 
             gap: 16px;
+        }
+
+        &__photo{
+            width: 310px;
+            img{
+                width: 100%;
+            }
         }
     }
 }

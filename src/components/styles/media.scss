@@ -1,0 +1,143 @@
+@media(max-width:3000px) {
+    .app {
+        width: 1000px;
+    }
+
+    .mainPage {
+        width: 1000px;
+    }
+
+    .mainProjects__top__line {
+        width: 510px;
+    }
+
+    .mainSkills__top__line {
+        width: 230px;
+    }
+
+    .mainAboutMe__top__line {
+        width: 320px;
+    }
+
+    .mainContacts__top__line {
+        width: 120px;
+    }
+}
+
+@media(max-width:1439px) {
+    .mainPage__items {
+        display: none;
+    }
+}
+
+
+@media(max-width:425px) {
+    .app {
+        width: auto;
+    }
+
+    .mainPage {
+        width: auto;
+    }
+
+    .header {
+        ul {
+            display: none;
+        }
+    }
+
+    .first {
+        flex-direction: column;
+        gap: 30px;
+
+        &__left {
+            margin: 0 auto;
+
+            h1 {
+                font-size: 36px;
+            }
+        }
+
+        &__right {
+            margin: 0 auto;
+
+            &__me {
+                width: 300px;
+            }
+        }
+    }
+
+    .mainProjects__top__line {
+        width: 140px;
+    }
+
+    .mainProjects__bottom{
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+    .mainSkills__top__line {
+        width: 70px;
+    }
+
+    .mainAboutMe__top__line {
+        width: 110px;
+    }
+
+    .mainContacts__top__line {
+        width: 20px;
+    }
+
+    .footer__top {
+        flex-direction: column;
+        margin: 0 auto;
+        gap: 30px;
+
+        &__left {
+            text-align: center;
+            p{
+                width: 280px;
+            };
+        }
+
+        &__right {
+            text-align: center;
+        }
+    }
+
+    .mainSkills__bottom {
+        flex-direction: column;
+        margin: 0 auto;
+        gap: 30px;
+
+        &__skills {
+            justify-content: center;
+        }
+
+        &__photo {
+            width: 310px;
+        }
+    }
+
+    .mainAboutMe__bottom {
+        flex-direction: column;
+        gap: 30px;
+
+        &__text {
+            align-items: center;
+        }
+    }
+
+    .mainContacts__bottom {
+        flex-direction: column;
+        gap: 30px;
+
+        p{
+            text-align: center;
+        }
+    }
+
+    .mainContacts__bottom>p{
+        margin-top: 30px;
+    }
+}

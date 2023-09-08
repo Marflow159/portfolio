@@ -2,10 +2,16 @@ body {
     background: #282C33;
     font-family: Fira Code;
     margin: 0 auto;
-    
-    display: flex;
-    align-items: center;
-    justify-content: center;
+}
+
+
+h1,
+h2,
+h3,
+ul,
+p {
+    margin: 0;
+    padding: 0;
 
     color: white;
     font-size: 16px;
@@ -14,11 +20,11 @@ body {
     line-height: normal;
 }
 
-h1,h2,h3,ul,p{
-    margin: 0;
-    padding: 0;
+a {
+    text-decoration: none;
+    color: white;
 }
 
-button{
+button {
     cursor: pointer;
 }
