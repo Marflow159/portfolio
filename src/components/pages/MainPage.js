@@ -4,7 +4,7 @@ import MainSkills from "../mainSkills/MainSkills";
 import MainAboutMe from "../mainAboutMe/MainAboutMe";
 import MainContacts from "../mainContacts/MainContacts";
 
-import './mainPage.scss'
+import './pages.scss'
 import '../styles/media.scss'
 
 const MainPage = () => {

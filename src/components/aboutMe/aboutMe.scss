@@ -1,0 +1,22 @@
+.aboutMe {
+    &__h2 {
+        margin-top: 50px;
+
+        display: flex;
+        flex-direction: column;
+
+        gap: 14px;
+
+        h1 {
+            font-weight: 600;
+
+            span {
+                color: #8338ec;
+            }
+        }
+
+        p{
+            font-weight: 400;
+        }
+    }
+}

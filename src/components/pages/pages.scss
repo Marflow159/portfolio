@@ -1,11 +1,16 @@
 .mainPage {
-    // width: 1000px;
     position: relative;
     display: flex;
     flex-direction: column;
     gap: 60px;
 }
 
+.aboutMePage{
+    display: flex;
+    flex-direction: column;
+
+    gap: 100px;
+}
 .rec2 {
     position: absolute;
     left: calc(50% + 650px);
@@ -18,6 +23,18 @@
     top: 1600px;
 }
 
+.rec4 {
+    position: absolute;
+    left: calc(50% + 650px);
+    top: 250px;
+}
+
+.rec5 {
+    position: absolute;
+    right: calc(50% + 650px);
+    top: 1000px;
+}
+
 .frame1 {
     position: absolute;
     right: calc(50% + 680px);
@@ -28,4 +45,16 @@
     position: absolute;
     left: calc(50% + 640px);
     top: 1800px;
+}
+
+.frame3 {
+    position: absolute;
+    right: calc(50% + 640px);
+    top: 400px;
+}
+
+.frame4 {
+    position: absolute;
+    left: calc(50% + 680px);
+    top: 765px;
 }

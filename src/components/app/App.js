@@ -2,7 +2,10 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 import Header from '../header/Header';
 import MainPage from "../pages/MainPage";
+import AboutMePage from "../pages/AboutMePage";
 import Footer from "../footer/Footer";
+
+
 import './App.scss';
 import '../styles/media.scss'
 
@@ -14,7 +17,9 @@ function App() {
                     <Header />
                     <Routes>
                         <Route path='/' element={<MainPage />} />
+                        <Route path='/about-me' element={<AboutMePage/>}/>
                     </Routes>
+                    
                     <Footer />
                     <div className="app__links">
                         <span></span>

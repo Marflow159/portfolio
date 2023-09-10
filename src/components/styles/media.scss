@@ -23,13 +23,17 @@
         width: 120px;
     }
 
-    .hamburger-menu{
+    .hamburger-menu {
         display: none;
     }
 }
 
 @media(max-width:1439px) {
     .mainPage__items {
+        display: none;
+    }
+
+    .aboutMePage__items {
         display: none;
     }
 }
@@ -55,9 +59,17 @@
 
         &__left {
             margin: 0 auto;
-
+            
+            height: 150px;
             h1 {
                 font-size: 36px;
+            }
+
+            h1:nth-child(2){
+                top: 50px;
+            }
+            h1:nth-child(3){
+                top: 50px;
             }
         }
 
@@ -71,7 +83,7 @@
     }
 
     .mainProjects__top__line {
-        width: 140px;
+        width: 90px;
     }
 
     .mainProjects__bottom {
@@ -121,8 +133,24 @@
             justify-content: center;
         }
 
+        &__skills2 {
+            flex-direction: column;
+            justify-content: center;
+        }
+
         &__photo {
             width: 310px;
+        }
+    }
+
+    .facts__bottom {
+        
+        img {
+            display: none;
+        }
+
+        &__fact{
+            margin: 0 auto;
         }
     }
 
@@ -144,7 +172,7 @@
         }
     }
 
-    .hamburger-menu{
+    .hamburger-menu {
         display: block;
     }
 

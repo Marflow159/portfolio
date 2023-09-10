@@ -1,0 +1,47 @@
+.facts {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+    &__top {
+        h1 {
+
+            span {
+                color: #8338ec;
+            }
+        }
+    }
+
+    &__bottom {
+        display: flex;
+        align-items: center;
+
+        &__fact {
+            display: flex;
+
+            width: 55%;
+            height: fit-content;
+            
+            gap: 16px;
+            flex-wrap: wrap;
+        }
+
+        img {
+            margin: 0 auto;
+        }
+    }
+}
+
+.factsSkillElement {
+    width: fit-content;
+    height: fit-content;
+    padding: 8px;
+    border: 1px solid #ABB2BF;
+
+    p{
+        color: #ABB2BF;
+        span{
+            color: white;
+        }
+    }
+}
