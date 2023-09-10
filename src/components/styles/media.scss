@@ -22,6 +22,10 @@
     .mainContacts__top__line {
         width: 120px;
     }
+
+    .hamburger-menu{
+        display: none;
+    }
 }
 
 @media(max-width:1439px) {
@@ -40,11 +44,10 @@
         width: auto;
     }
 
-    .header {
-        ul {
-            display: none;
-        }
+    .header>ul {
+        display: none;
     }
+
 
     .first {
         flex-direction: column;
@@ -71,11 +74,12 @@
         width: 140px;
     }
 
-    .mainProjects__bottom{
+    .mainProjects__bottom {
         flex-direction: column;
         align-items: center;
         gap: 30px;
     }
+
     .mainSkills__top__line {
         width: 70px;
     }
@@ -95,9 +99,12 @@
 
         &__left {
             text-align: center;
-            p{
+
+            p {
                 width: 280px;
-            };
+            }
+
+            ;
         }
 
         &__right {
@@ -132,12 +139,16 @@
         flex-direction: column;
         gap: 30px;
 
-        p{
+        p {
             text-align: center;
         }
     }
 
-    .mainContacts__bottom>p{
+    .hamburger-menu{
+        display: block;
+    }
+
+    .mainContacts__bottom>p {
         margin-top: 30px;
     }
 }
