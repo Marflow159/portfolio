@@ -1,5 +1,3 @@
-import { NavLink } from "react-router-dom"
-
 import './header.scss'
 
 const Header = () => {
@@ -16,27 +14,28 @@ const Header = () => {
         }
     }
 
+    const closeBurger = () =>{
+        document.getElementById('menu__toggle').checked = false;
+    }
     return (
         <header className='header'>
-            <NavLink to='/'>
+            <a href="#home">
                 <p>Marflow</p>
-            </NavLink>
-
+            </a>
             <ul>
-                <NavLink to='/' className={({ isActive }) => (isActive ? 'activeBox' : 'noActiveBox')}>
+                <a  href="#home">
                     <li><span>#</span>home</li>
-                </NavLink>
-                <NavLink to='/works' className={({ isActive }) => (isActive ? 'activeBox' : 'noActiveBox')}>
+                </a>
+                <a href="#works">
                     <li><span>#</span>works</li>
-                </NavLink>
-                <NavLink to='/about-me' className={({ isActive }) => (isActive ? 'activeBox' : 'noActiveBox')}>
+                </a>
+                <a href="#about-me">
                     <li><span>#</span>about-me</li>
-                </NavLink>
-                <NavLink to='/contacts' className={({ isActive }) => (isActive ? 'activeBox' : 'noActiveBox')}>
+                </a>
+                <a href="#contacts">
                     <li><span>#</span>contacts</li>
-                </NavLink>
+                </a>
             </ul>
-
             <div className="hamburger-menu">
                 <input onClick={(e) => bodyScrollOff(e)} className="menu__toggle" id="menu__toggle" type="checkbox" />
                 <label className="menu__btn" htmlFor="menu__toggle">
@@ -45,24 +44,24 @@ const Header = () => {
 
                 <div className="menu__box">
                     <ul >
-                        <NavLink to='/' className={({ isActive }) => (isActive ? 'activeBox' : 'noActiveBox')}>
+                        <a onClick={() => closeBurger()} href="#home">
                             <li><span>#</span>home</li>
-                        </NavLink>
-                        <NavLink to='/works' className={({ isActive }) => (isActive ? 'activeBox' : 'noActiveBox')}>
+                        </a>
+                        <a onClick={() => closeBurger()} href="#works">
                             <li><span>#</span>works</li>
-                        </NavLink>
-                        <NavLink to='/about-me' className={({ isActive }) => (isActive ? 'activeBox' : 'noActiveBox')}>
+                        </a>
+                        <a onClick={() => closeBurger()} href="#about-me">
                             <li><span>#</span>about-me</li>
-                        </NavLink>
-                        <NavLink to='/contacts' className={({ isActive }) => (isActive ? 'activeBox' : 'noActiveBox')}>
+                        </a>
+                        <a onClick={() => closeBurger()} href="#contacts">
                             <li><span>#</span>contacts</li>
-                        </NavLink>
+                        </a>
                     </ul>
 
                     <div className="menu__box__links">
-                        <a href="https://github.com/Marflow159"><img src="img/links/Github.png" alt="Github" /></a>
-                        <a href="https://www.linkedin.com/in/vlad-bohachenko-756a56279/"><img src="img/links/LinkedIn.png" alt="LinkedIn" /></a>
-                        <a href="https://www.instagram.com/_vladb._/"><img src="img/links/instagram.png" alt="LinkedIn" /></a>
+                        <a href="https://github.com/Marflow159"><img src="img/links/Github.svg" alt="Github" /></a>
+                        <a href="https://www.linkedin.com/in/vlad-bohachenko-756a56279/"><img src="img/links/LinkedIn.svg" alt="LinkedIn" /></a>
+                        <a href="https://www.instagram.com/_vladb._/"><img src="img/links/instagram.svg" alt="LinkedIn" /></a>
                     </div>
                 </div>
 

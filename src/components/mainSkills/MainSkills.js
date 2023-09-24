@@ -16,14 +16,14 @@ const MainSkills = () => {
 
     let elements = skills.map(skill =>{
         return(
-            <div className='skillElement'>
+            <div className='skillElement' key={skill.top}>
                 <p>{skill.top}</p>
                 <p>{skill.bottom}</p>
             </div>
         )
     })
     return (
-        <div className="mainSkills">
+        <div className="mainSkills"  id="about-me">
             <div className='mainSkills__top'>
                 <h1><span>#</span>skills</h1>
                 <div className="mainSkills__top__line"></div>

@@ -3,6 +3,7 @@ import MainProjects from "../mainProjects/MainProjects";
 import MainSkills from "../mainSkills/MainSkills";
 import MainAboutMe from "../mainAboutMe/MainAboutMe";
 import MainContacts from "../mainContacts/MainContacts";
+import Facts from "../facts/Facts";
 
 import './pages.scss'
 import '../styles/media.scss'
@@ -13,8 +14,9 @@ const MainPage = () => {
 
             <First />
             <MainProjects />
-            <MainSkills />
+            <MainSkills/>
             <MainAboutMe />
+            <Facts />
             <MainContacts />
 
             <div className="mainPage__items">

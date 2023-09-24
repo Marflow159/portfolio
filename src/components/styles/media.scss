@@ -1,4 +1,4 @@
-@media(max-width:3000px) {
+@media(min-width:426px) {
     .app {
         width: 1000px;
     }
@@ -59,16 +59,18 @@
 
         &__left {
             margin: 0 auto;
-            
+
             height: 150px;
+
             h1 {
                 font-size: 36px;
             }
 
-            h1:nth-child(2){
+            h1:nth-child(2) {
                 top: 50px;
             }
-            h1:nth-child(3){
+
+            h1:nth-child(3) {
                 top: 50px;
             }
         }
@@ -144,12 +146,12 @@
     }
 
     .facts__bottom {
-        
+
         img {
             display: none;
         }
 
-        &__fact{
+        &__fact {
             margin: 0 auto;
         }
     }
@@ -179,4 +181,12 @@
     .mainContacts__bottom>p {
         margin-top: 30px;
     }
+
+    .header {
+        position: fixed;
+        top: 0;
+        z-index: 3;
+    }
+
+
 }

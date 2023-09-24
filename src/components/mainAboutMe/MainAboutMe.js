@@ -1,15 +1,9 @@
-import { NavLink } from "react-router-dom"
-
 import './mainAboutMe.scss'
 
 const MainAboutMe = () => {
-    const upScroll = () => {
-        window.scroll(0, 0);
-    }
     return (
         <div className="mainAboutMe">
             <div className='mainAboutMe__top'>
-
                 <h1><span>#</span>about-me</h1>
                 <div className="mainAboutMe__top__line"></div>
             </div>
@@ -19,10 +13,6 @@ const MainAboutMe = () => {
                     <p>I am a self-taught frontend developer, living in Lviv, Ukraine. I can build responsive websites from scratch. I show my creativity and knowledge in the development of websites. </p>
                     <p>Programming has been in my life for a year, now I am improving my skills and abilities.
                         I am always eager to learn about the latest technologies and frameworks. </p>
-                    <NavLink to='about-me'>
-                        <button onClick={() => upScroll()}> Read more ~~</button>
-                    </NavLink>
-
                 </div>
                 <div className='me2'>
                     <img src="img/me/me2.png" alt="me2" />

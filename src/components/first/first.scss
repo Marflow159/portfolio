@@ -14,7 +14,7 @@
         width: 95%;
         height: 250px;
 
-        button {
+        a {
             position: absolute;
             bottom: 0;
             width: 116px;
@@ -22,9 +22,10 @@
             background: none;
             color: white;
             border: 1px solid #8338ec ;
+            text-align: center;
         }
 
-        button:hover {
+        a:hover {
             background-color: rgba(199, 120, 221, 0.2);
             transition: 0.5s;
         }
@@ -91,14 +92,14 @@
 
 .first__left h1:nth-child(1) {
     top: 0;
-    color: transparent;
+    // color: transparent;
     -webkit-text-stroke: 1px white;
 }
 
 
 .first__left h1:nth-child(2) {
     top: 100px;
-    color: transparent;
+    color: #8338ec;
     -webkit-text-stroke: 1px #8338ec;
 }
 

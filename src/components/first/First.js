@@ -3,14 +3,14 @@ import '../styles/media.scss'
 
 const First = () => {
     return (
-        <div className='first'>
+        <div className='first' id='home'>
             <div className='first__left'>
                 <h1>Vlad Bohachenko</h1>
 
                 <h1>front-end developer</h1>
                 <h1>front-end developer</h1>
 
-                <button>Contact me!!</button>
+                <a href="#contacts">Contact me!!</a>
             </div>
             <div className='first__right'>
                 <div className='first__right__me'>
