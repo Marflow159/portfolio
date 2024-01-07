@@ -7,8 +7,8 @@ const First = () => {
             <div className='first__left'>
                 <h1>Vlad Bohachenko</h1>
 
-                <h1>front-end developer</h1>
-                <h1>front-end developer</h1>
+                <h1>react developer</h1>
+                <h1>react developer</h1>
 
                 <a href="#contacts">Contact me!!</a>
             </div>

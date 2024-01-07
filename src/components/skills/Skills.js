@@ -4,7 +4,7 @@ const Skills = () => {
     let skills = [
         {
             top: "Languages",
-            bottom: "JavaScript"
+            bottom: "JavaScript TypeScript"
         },
         {
             top: "Tools",
