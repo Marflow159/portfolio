@@ -17,11 +17,6 @@ function App() {
                     <Route path='/' element={<MainPage />} />
                 </Routes>
                 <Footer />
-                {/* <div className="animationWave1"></div> */}
-                {/* <div className="animationWave2"></div> */}
-{/* 
-                <div className="animation1"></div> */}
-                {/* <div className="animation2"></div> */}
                 <div className="app__links">
                     <span></span>
                     <a href="https://github.com/Marflow159"><img src="img/links/Github.svg" alt="Github" /></a>

@@ -7,7 +7,7 @@ const Footer = () => {
             <div className='footer__top'>
                 <div className='footer__top__left'>
                     <p>Marflow <span><a href="mailto:vladbohachenko.vb@gmail.com">vladbohachenko.vb@gmail.com</a></span></p>
-                    <p>Front-end developer</p>
+                    <p>React developer</p>
                 </div>
                 <div className='footer__top__right'>
                     <h2>Media</h2>

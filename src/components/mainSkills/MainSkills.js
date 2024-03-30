@@ -5,7 +5,7 @@ import '../styles/media.scss'
 const MainSkills = () => {
     let skills = [
         {top: "Languages",
-        bottom: "JavaScript"},
+        bottom: "JavaScript TypeScript"},
         {top: "Tools",
         bottom: "Figma Git VSCode"},
         {top: "Other",

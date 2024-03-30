@@ -2,9 +2,9 @@ import './mainProjects.scss'
 
 const MainProjects = () => {
     let allProgects = [
+        {img: "img/projects/kinoview.png",projectName: 'KinoView', tools: 'HTML SCSS JS TS React Redux', projectDescription: 'A site for finding movies and information about them', url: "https://kinoview-23877.web.app/"},
         {img: "img/projects/riversite.png",projectName: 'Riversate', tools: 'HTML SCSS JS React Redux', projectDescription: 'Delivery web site (is updating)', url: "https://riversite-c5cdd.web.app/"},
-        {img: "img/projects/marvel.png",projectName: 'Marvel service', tools: 'HTML SCSS JS React', projectDescription: 'Service with information about all marvel heroes' ,url: "https://github.com/Marflow159/marvel_service"},
-        {img: "img/projects/coffee-shop.png",projectName: 'Coffee shop', tools: 'HTML SCSS JS React', projectDescription: 'My first website on React', url: "https://github.com/Marflow159/coffee_shop"}
+        {img: "img/projects/marvel.png",projectName: 'Marvel service', tools: 'HTML SCSS JS React', projectDescription: 'Service with information about all marvel heroes' ,url: "https://github.com/Marflow159/marvel_service"}
     ]
     let elements = allProgects.map((project) => {
 
